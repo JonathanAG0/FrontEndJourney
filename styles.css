@@ -1,0 +1,82 @@
+
+html {
+    font-size: 10px
+    }
+    /*Uses the same font for the rest of the page*/
+    body{
+        font-family: Poppins, sans-serif;
+        font-size: 1.5rem;
+       
+    }
+    #main {
+        margin: 0;
+        padding: 15px;
+        border-radius: 15px; 
+        background: #EEE;
+    }
+    /*#main will get a margin of 0 if the max-width is below 460px*/
+    @media (max-width: 460px) {
+        #main {
+          margin: 0;
+        }
+      }
+    h1{
+        font-size: 4rem;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    @media (max-width: 460px) {
+        h1 {
+          font-size: 3.5rem;
+          line-height: 1.2;
+        }
+      }
+      
+    /*align h3*/
+    h3{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #rl{
+        text-align: center;
+    }
+    #image {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    }
+    #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0 auto;
+    }
+    #img-caption{
+        margin: 15px 0 5px 0;
+        text-align: center;
+    }
+    @media (max-width: 460px) {
+        #img-caption {
+          font-size: 1.4rem;
+        }
+      }
+      #headline{
+          margin: 50px 0;
+          text-align: center;
+      }
+      ul{
+        max-width: 550px;
+        margin: 0 auto 50px auto;
+        text-align: left;
+        line-height: 1.6;
+      }
+      li{
+    margin: 16px 0;
+      }
+    blockquote{
+        font-style: italic;
+        max-width: 545px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+    }
+    
